@@ -1,0 +1,22 @@
+{
+  "version": "2.0",
+  "functionTimeout": "00:01:00",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "includedTypes": "Dependency;Event;Exception;Request;Trace"
+      }
+    },
+    "logLevel": {
+      "default": "Warning",
+      "Host.Results": "Warning",
+      "Function": "Information",
+      "Host.Aggregator": "Warning"
+    }
+  },  
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[3.3.0, 4.0.0)"
+  }
+}
