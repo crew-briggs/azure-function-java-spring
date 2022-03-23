@@ -29,7 +29,7 @@ mvn clean && mvn package && mvn azure-functions:run
 1. Deploy with Maven
 
 ```bash
-mvn azure-functions:deploy`
+mvn azure-functions:deploy
 ```
 
 2. Deploy with Terraform
