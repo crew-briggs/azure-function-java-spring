@@ -71,7 +71,7 @@ public class QueryExecutionHandlerFunctionTest {
 
       final ExecutionContext context = mock(ExecutionContext.class);
       doReturn(Logger.getGlobal()).when(context).getLogger();
-      doReturn("executeQueryV1").when(context).getFunctionName();
+      doReturn("atomicnumber").when(context).getFunctionName();
       doReturn("1").when(context).getInvocationId();
 
       final QueryExecutionHandler queryExecutionHandler = new QueryExecutionHandler(Application.class);
